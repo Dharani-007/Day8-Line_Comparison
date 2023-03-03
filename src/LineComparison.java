@@ -11,7 +11,6 @@ public class LineComparison {
     }
 
     //Method for checking equality of two lines by comparing their lengths
-
     private static void compareLine() {
         if (firstLineLength == secondLineLength) {
             String stringFirst = String.valueOf(firstLineLength);
@@ -30,7 +29,6 @@ public class LineComparison {
             }
         }
     }
-
     public static void main(String[] args) {
         System.out.println("Welcome To Line Comparison Computation Program on Master Branch");
         firstLineLength = calculatingLengthOfLine(3, 2, 6, 8);
