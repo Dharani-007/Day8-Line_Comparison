@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63b4d227-6eb3-4d5e-9da2-f2fac7464767" name="Changes" comment="Added : Compare two lines">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="63b4d227-6eb3-4d5e-9da2-f2fac7464767" name="Changes" comment="Added : Equality of two line">
       <change beforePath="$PROJECT_DIR$/src/LineComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineComparison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677869823249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added : Equality of two line">
+      <created>1677896940535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677896940535</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +97,7 @@
     <MESSAGE value="Added : Calculate the length of the line" />
     <MESSAGE value="Added : Calculate the length of the line." />
     <MESSAGE value="Added : Compare two lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added : Compare two lines" />
+    <MESSAGE value="Added : Equality of two line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Equality of two line" />
   </component>
 </project>
