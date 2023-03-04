@@ -1,43 +1,37 @@
 import java.util.Scanner;
-public class LineComparison {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Line Comparison Problem");
+public class LineComparison
+{
+    public static void main(String[] args)
+    {
+        System.out.println ("Welcome to Line Comparison Computation Program");
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of co-ordinate");
-        System.out.println("Enter the value of (x1,y1)= ");
+        System.out.println("Enter the co-ordinate x1");
         int x1 = sc.nextInt();
+        System.out.println("Enter the co-ordinate y1");
         int y1 = sc.nextInt();
-        System.out.println("Enter the value of (x2,y2)= ");
+        System.out.println("Enter the co-ordinate x2");
         int x2 = sc.nextInt();
+        System.out.println("Enter the co-ordinate y2");
         int y2 = sc.nextInt();
-        double distanceLine1= Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
-        System.out.println("Enter the values of next co-ordinates ");
-        System.out.println("x3= ");
+        System.out.println("Enter the co-ordinate x3");
         int x3 = sc.nextInt();
-        System.out.println("y3= ");
+        System.out.println("Enter the co-ordinate y3");
         int y3 = sc.nextInt();
-        System.out.println("x4= ");
+        System.out.println("Enter the co-ordinate x4");
         int x4 = sc.nextInt();
-        System.out.println("y4= ");
+        System.out.println("Enter the co-ordinate y4");
         int y4 = sc.nextInt();
-        double distanceLine2=Math.sqrt(Math.pow(x4-x3,2) + Math.pow(y4-y3,2));
+        //Calculating length
+        int l1 = (int) Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
+        int l2 = (int) Math.sqrt(((x4 - x3) * (x4 - x3)) + ((y4 - y3) * (y4 - y3)));
 
-        System.out.println("length of Line1= "+ distanceLine1);
-        System.out.println("length of Line2= "+ distanceLine2);
-
-        // If distanceLine1 is greater than distanceLine2, the program prints "Line1 is greater than Line2"
-        // If distanceLine1 is less than distanceLine2, the program prints "Line1 is less than Line2"
-        if (distanceLine1==distanceLine2) {
-            System.out.println("Two Lines are Equal");
-        } else {
-            System.out.println("Two Lines are Not Equal");
-            if (distanceLine1<distanceLine2) {
-                System.out.println("Line1 is less than Line2");
-            }
-            else{
-                System.out.println("Two Lines are Equal");
-            }
-        }
+//The program also compares the two strings using the equals and
+// compareTo methods of the String class
+        String s1=String.valueOf(l1);
+        String s2=String.valueOf(l2);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.compareTo(s2));
     }
-
 }

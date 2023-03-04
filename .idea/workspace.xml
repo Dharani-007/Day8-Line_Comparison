@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63b4d227-6eb3-4d5e-9da2-f2fac7464767" name="Changes" comment="Added : Equality of two line">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LineComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LineComparison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
