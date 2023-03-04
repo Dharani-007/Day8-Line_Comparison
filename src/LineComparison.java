@@ -1,42 +1,19 @@
+import java.util.Scanner;
+
 public class LineComparison {
-    public static double firstLineLength;
-    public static double secondLineLength;
+    public static void main(String[] args) {
+        System.out.println("Welcome to Line Comparison Problem");
 
-    /**
-     * Method for calculating the length of line.
-     */
-    private static double calculatingLengthOfLine(int x1, int x2, int y1, int y2) {
-        double lineLength;
-        lineLength = Math.sqrt(Math.pow(x2 - x1, 2) + (Math.pow(y2 - y1, 2)));
-        return lineLength;
-    }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of co-ordinate");
+        System.out.println("Enter the value of (x1,y1)= ");
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
+        System.out.println("Enter the value of (x2,y2)= ");
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
 
-    /**
-     * Method for checking equality of two lines.
-     */
-    private static void checkingEqualityOfLine() {
-        private static void compareLine () {
-            if (firstLineLength == secondLineLength) {
-                System.out.println("Both Lines are equal");
-            } else {
-                System.out.println("Lines are not equal");
-                if (firstLineLength > secondLineLength) {
-                    System.out.println("First line is longer than second line");
-                } else {
-                    System.out.println("Second line is longer than First line");
-                }
-            }
-        }
+        double distanceLine1= Math.sqrt(Math.pow(x2-x1,2) + Math.pow(y2-y1,2));
+        System.out.println("length of Line1= "+ distanceLine1);
     }
-
-        public static void main(String[] args) {
-            System.out.println("Welcome To Line Comparison Computation Program on Master Branch");
-            firstLineLength = calculatingLengthOfLine(3, 2, 6, 8);
-            System.out.println(firstLineLength);
-            secondLineLength = calculatingLengthOfLine(5,3,6,2);
-            secondLineLength = calculatingLengthOfLine(5, 3, 6, 2);
-            System.out.println(secondLineLength);
-            checkingEqualityOfLine();
-            compareLine();
-        }
-    }
+}
